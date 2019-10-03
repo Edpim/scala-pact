@@ -11,7 +11,7 @@ import org.http4s.dsl._
 import org.http4s.server.Server
 import org.http4s.server.blaze.BlazeBuilder
 import org.http4s.util.CaseInsensitiveString
-import org.http4s.{HttpService, Request, Response, Status}
+import org.http4s.{BuildInfo, HttpService, Request, Response, Status}
 
 import scala.concurrent.ExecutionContext
 import scala.concurrent.duration._
